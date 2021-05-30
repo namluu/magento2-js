@@ -1,0 +1,1 @@
+/usr/local/var/www/magento242/vendor/magento/module-review/view/frontend/web/js/submit-review.js
