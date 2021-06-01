@@ -1,0 +1,20 @@
+<div data-bind="scope: 'customComponent'">
+    <div data-bind="with: cart">
+        <input type="text" data-bind="value: summary_count"/>
+    </div>
+    <button data-bind="click: forceCartToSpin">Force</button>
+</div>
+
+<script type="text/x-magento-init">
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "customComponent": {
+                        "component": "Isobar_UiComponentCommunication/js/custom_component"
+                    }
+                }
+            }
+        }
+    }
+</script>
