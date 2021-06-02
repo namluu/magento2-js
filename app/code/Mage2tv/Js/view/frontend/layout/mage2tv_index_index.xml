@@ -4,4 +4,10 @@
     <head>
         <script src="Mage2tv_Js/js/example1.js" defer="true" />
     </head>
+    <body>
+        <referenceContainer name="content">
+            <block name="mage2tv-js"
+                   template="Mage2tv_Js::example2.phtml"/>
+        </referenceContainer>
+    </body>
 </page>
