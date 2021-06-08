@@ -8,6 +8,7 @@
         <referenceContainer name="content">
             <block name="mage2tv-js" template="Mage2tv_Js::example2.phtml"/>
             <block name="mage2tv-js-4" template="Mage2tv_Js::example4.phtml"/>
+            <block name="mage2tv-js-8" template="Mage2tv_Js::example8.phtml"/>
         </referenceContainer>
     </body>
 </page>
